@@ -241,5 +241,7 @@ fn hello_works() {
 
 <br>
 
-Change `src/main.rs` and intentionally change a message to a value that the **test does not expect**. The `pretty_assertions::assert_eq` prints out **full-fledged diff**:
-![pretty_assertions_diff](/img/pretty_assertions_diff.png)
+Change `src/main.rs` and intentionally change a message to a value that the **test does not expect**. The `pretty_assertions::assert_eq` prints out **full-fledged diff**:<br>
+![pretty_assertions_diff](img/pretty_assertions_diff.png)
+
+<br>
