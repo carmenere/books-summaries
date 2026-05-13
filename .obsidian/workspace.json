@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "4e8c73b13fdcddb0",
+    "id": "310762c19f798bd9",
     "type": "split",
     "children": [
       {
-        "id": "ebe6501674e574bd",
+        "id": "5f08a892e7886a9b",
         "type": "tabs",
         "children": [
           {
-            "id": "49475d9c144a5605",
+            "id": "973a2ffb5244bef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "45-tattoos-of-a-manager.md",
+                "file": "math/kvant-journal.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "45-tattoos-of-a-manager"
+              "title": "kvant-journal.md"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0d98cc36a4acc3d8",
+    "id": "89991ac61b9d32c7",
     "type": "split",
     "children": [
       {
-        "id": "8c1fbefad9642085",
+        "id": "2d870d7c166d992e",
         "type": "tabs",
         "children": [
           {
-            "id": "8793057047699c88",
+            "id": "fce3086b326e5ec6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "be3e809d03bfc1ae",
+            "id": "cb3bb5cb367d63b2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "3e233d33bfb0d44f",
+            "id": "207db5a2c1f98e6a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "6c1ddf7bfdb0033e",
+    "id": "d22965c04347a514",
     "type": "split",
     "children": [
       {
-        "id": "a4d66bd01c999e5c",
+        "id": "8cf5c7ec75ad5a47",
         "type": "tabs",
         "children": [
           {
-            "id": "5f25cb600bc8999b",
+            "id": "9827630182f0c33e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "45-tattoos-of-a-manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 45-tattoos-of-a-manager"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "a07ad3e4c9027519",
+            "id": "1a3d2af371ba4f18",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "45-tattoos-of-a-manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 45-tattoos-of-a-manager"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "7633e07a415e4143",
+            "id": "1019da5e4dadab07",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +135,7 @@
             }
           },
           {
-            "id": "7d1aeec5ef88642c",
+            "id": "cb771d4133a66e9d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,18 +149,17 @@
             }
           },
           {
-            "id": "98480037ea058a63",
+            "id": "d5258aa40c54da84",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "45-tattoos-of-a-manager.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 45-tattoos-of-a-manager"
+              "title": "Outline"
             }
           }
         ]
@@ -183,8 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "49475d9c144a5605",
+  "active": "973a2ffb5244bef2",
   "lastOpenFiles": [
-    "45-tattoos-of-a-manager.md"
+    "math/kvant-journal.md.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "rust/command-line-rust/book-command-line-rust.md",
+    "Untitled.md"
   ]
 }
