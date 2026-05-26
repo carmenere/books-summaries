@@ -528,9 +528,7 @@ $`T(n) = a \cdot T\left(\left\lceil \dfrac{n}{b} \right\rceil\right) + O(n^{d})`
 
 $`T(n) = a \cdot T\left(\left\lceil \dfrac{n}{b} \right\rceil\right) + O(n^{d})`$
 
-для некоторых констант $`a \gt 0`$, $`b \gt 1`$, $d \ge 0`$, тогда:
-
-<br>
+для некоторых констант $`a \gt 0`$, $`b \gt 1`$, $`d \ge 0`$, тогда:<br>
 
 $`
 T(n) = \begin{cases} 
