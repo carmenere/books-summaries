@@ -522,7 +522,11 @@ else: return no
 
 <br>
 
-**Мастер теорема** (**Master theorem**): пусть $`T(n) = a \cdot T\left(\left\lceil \dfrac{n}{b} \right\rceil\right) + O(n^{d})`$ для некоторых констант $`a \gt 0`$, $`b \gt 1`$, $d \ge 0``$, тогда:<br>
+**Мастер теорема** (**Master theorem**):
+
+пусть $`T(n) = a \cdot T\left(\left\lceil \dfrac{n}{b} \right\rceil\right) + O(n^{d})`$ для некоторых констант $`a \gt 0`$, $`b \gt 1`$, $d \ge 0`$, тогда:
+
+<br>
 
 $`
 T(n) = \begin{cases} 
