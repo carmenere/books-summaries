@@ -433,7 +433,7 @@ else: return no
 fn primality2(N)
 Input: Positive integer N
 Output: yes/no
-Pick k random positive integer a_1, a_2, ..., a_k < N
+Pick k random positive integers a_1, a_2, ..., a_k < N
 if a_i^(N−1) ≡ 1 (mod N) for all i in 1..=k: return yes
 else: return no
 ```
