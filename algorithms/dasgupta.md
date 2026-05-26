@@ -524,11 +524,11 @@ $`T(n) = a \cdot T\left(\left\lceil \dfrac{n}{b} \right\rceil\right) + O(n^{d})`
 
 <br>
 
-**Мастер теорема** (**Master theorem**): пусть<br>
+**Мастер теорема** (**Master theorem**): пусть для некоторых констант $`a \gt 0`$, $`b \gt 1`$, $`d \ge 0`$<br>
 
 $`T(n) = a \cdot T\left(\left\lceil \dfrac{n}{b} \right\rceil\right) + O(n^{d})`$
 
-для некоторых констант $`a \gt 0`$, $`b \gt 1`$, $`d \ge 0`$, тогда:<br>
+**тогда**:<br>
 
 $`
 T(n) = \begin{cases} 
