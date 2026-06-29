@@ -128,10 +128,11 @@ fn run() {
 
 <br>
 
-- `Command::cargo_bin("hello").unwrap()` returns a `Result`, and the code calls `Result::unwrap` because the **binary should be found**;
-  - **if it isn’t**, then `unwrap` will cause a **panic** and the **test will fail**, which is a good thing;
-- `cmd.assert().success()` expects **success**;
-- `cmd.assert().failure()` expects **fail**;
+- `Command::cargo_bin("hello")` returns a `Result`, and then code calls `Result::unwrap()` because the **binary should be found** and returns `Command`;
+  - **if binary doesn't exist**, then `unwrap` will cause a **panic** and the **test will fail**, which is a good thing;
+- `cmd.assert()` runs a `Command` and make assertions on the `Output`;
+- `cmd.assert().success()` expects **success**, i.e. **exit code** is **0**;
+- `cmd.assert().failure()` expects **fail**, i.e. **exit code** is **not equal to 0**;
 
 <br>
 
