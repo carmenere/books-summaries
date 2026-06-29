@@ -128,10 +128,11 @@ fn run() {
 
 <br>
 
-- `Command::cargo_bin("hello").unwrap()` returns a `Result`, and the code calls `Result::unwrap` because the **binary should be found**;
-  - **if it isn’t**, then `unwrap` will cause a **panic** and the **test will fail**, which is a good thing;
-- `cmd.assert().success()` expects **success**;
-- `cmd.assert().failure()` expects **fail**;
+- `Command::cargo_bin("hello")` returns a `Result`, and then code calls `Result::unwrap()` because the **binary should be found** and returns `Command`;
+  - **if binary doesn't exist**, then `unwrap` will cause a **panic** and the **test will fail**, which is a good thing;
+- `cmd.assert()` runs a `Command` and make assertions on its **output**:
+  - `cmd.assert().success()` expects **success**, i.e. **exit code** is **0**;
+  - `cmd.assert().failure()` expects **fail**, i.e. **exit code** is **not equal to 0**;
 
 <br>
 
@@ -184,12 +185,8 @@ fn false_works() {
 ## Command: `true`
 ### `src/bin/true.rs`
 ```rust
-use assert_cmd::Command;
-
-#[test]
-fn false_works() {
-    let mut cmd = Command::cargo_bin("true").unwrap();
-    cmd.assert().success();
+fn main() {
+    std::process::exit(0);
 }
 ```
 
@@ -209,7 +206,7 @@ echo $?
 use assert_cmd::Command;
 
 #[test]
-fn false_works() {
+fn true_works() {
     let mut cmd = Command::cargo_bin("true").unwrap();
     cmd.assert().success();
 }
@@ -229,11 +226,14 @@ fn hello_works() {
     let output = cmd.output().expect("fail");
     assert!(output.status.success());
     let stdout = String::from_utf8(output.stdout).expect("invalid UTF-8");
-    assert_eq!(stdout,"Hello, world!\n");
+    assert_eq!(stdout, "Hello, world!\n");
 }
 ```
 
-- `cmd.output().expect("fail")` **executes** command and **prints** the output of the command or **panics** with the message "fail";
+- `cmd.output().expect("fail")` **executes** command and
+  - - **prints** the output of the command;
+  - **OR** 
+  - - **panics** with the message "fail";
 - `output.status.success())` returns `true` if the command **succeeded**;
 - `String::from_utf8(output.stdout).expect("invalid UTF-8")` converts the output of the program to **UTF-8**;
 - `assert_eq!(stdout,"Hello, world!\n")` compares the **actual output** from the program to an **expected value**;
