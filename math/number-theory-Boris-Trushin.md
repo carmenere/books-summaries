@@ -675,7 +675,10 @@ $`a-S = a_{n} \cdot 10^{n} + a_{n-1} \cdot 10^{n-1} + ... + a_{1} \cdot 10^{1} +
 <br>
 
 **Следствие 2**: пусть $`m = p \cdot q`$, где $`p`$ и $`q`$ **различные простые числа**, тогда для любых натуральных чисел $`a`$ и $`k`$ справедливо, что $`(a^{\phi(m)})^{k} \cdot a \equiv a \cdot 1^{k} \equiv a \cdot 1 \equiv a \pmod{m}`$.<br>
-Получаем, что $`a^{k\cdot\phi(m) + 1} \equiv a \pmod{m}`$
+
+<br>
+
+Т.о. $`a^{k\cdot\phi(m) + 1} \equiv a \pmod{m}`$
 
 <br>
 
