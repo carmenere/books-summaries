@@ -1095,7 +1095,7 @@ $`a-S = a_{n} \cdot 10^{n} + a_{n-1} \cdot 10^{n-1} + ... + a_{1} \cdot 10^{1} +
 <br>
 
 **Циклическая подгруппа**:<br>
-![cycle-subgroup](/img/cycle-subgroup.png)
+![cycle-subgroup](img/cycle-subgroup.png)
 
 <br>
 
@@ -1251,6 +1251,6 @@ $`a-S = a_{n} \cdot 10^{n} + a_{n-1} \cdot 10^{n-1} + ... + a_{1} \cdot 10^{1} +
 <br>
 
 **Diagram**:<br>
-![DH](/img/DH.png)
+![DH](img/DH.png)
 
 <br>
